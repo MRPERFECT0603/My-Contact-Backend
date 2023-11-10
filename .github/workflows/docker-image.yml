@@ -16,5 +16,5 @@ jobs:
       run: |
         docker build -t app .
         docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_SECRET }}
-        docker tag app vivekshaurya/MyContact-BACKEND
-        docker push vivekshaurya/MyContact-BACKEND
+        docker tag app vivekshaurya/my-contact-backend
+        docker push vivekshaurya/my-contact-backend
